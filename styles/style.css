@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-section {
+  display: flex;
+}
+
+#box {
+  border: 1px solid #222;
+}
+
+.main-section h1 {
+  margin: 20px 0;
+  padding: 0 10px;
+  font-size: 2rem;
+  color: rgb(255, 115, 0);
+  /* border: 1px solid #222; */
+}
