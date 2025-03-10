@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .main-section {
@@ -9,6 +10,11 @@
 
 #box {
   border: 1px solid #222;
+}
+
+.menu-item ul li {
+  list-style: none;
+  font-weight: bold;
 }
 
 .main-section h1 {
@@ -20,7 +26,26 @@
 
 .info-items {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
-  max-width: 100%;
+  /* max-width: 100%; */
+  margin: 10px 0;
+}
+
+.chart-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  /* border: 1px solid #222; */
+  margin: 10px 0;
+}
+
+.headline {
+  border: 1px solid #222;
+  width: 300px;
+}
+
+.chart-info {
 }
