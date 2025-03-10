@@ -16,5 +16,11 @@
   padding: 0 10px;
   font-size: 2rem;
   color: rgb(255, 115, 0);
-  /* border: 1px solid #222; */
+}
+
+.info-items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  max-width: 100%;
 }
