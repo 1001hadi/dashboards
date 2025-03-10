@@ -41,11 +41,10 @@
   /* border: 1px solid #222; */
   margin: 10px 0;
 }
-
+.item ul {
+  width: 300px;
+}
 .headline {
   border: 1px solid #222;
   width: 300px;
-}
-
-.chart-info {
 }
